@@ -1,4 +1,88 @@
-## SimpleScoring IPSC
-
-<b>Create an issue for support.</b>
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SimpleScoring IPSC</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Staatliches&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+	</head>
+	
+	<body>
+		<header>
+			<h1><span>SimpleScoring IPSC</span></h1>
+		</header>
+		<main>
+			
+			<section class="intro">
+				<div class="icon">
+				<img src="img/icon.png" />
+				</div>
+				<div class="text">
+					<p>
+						<em>Score stages</em> and <em>save the results</em> during practice or impromptu matches with your friends. <em>Minimal setup.</em><br /><br />
+						<em>Free.</em><br />
+						<em>No ads.</em>
+					</p>
+				
+					
+					
+					<section class="app-links">
+						<a href="https://play.google.com/store/apps/details?id=se.endir.simplescoring&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="google-play-img" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a>
+						
+						<a href="https://apps.apple.com/us/app/simplescoring-ipsc/id1566325029?itsct=apps_box_badge&amp;itscg=30200"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1621900800&h=f3a639b2ff947a3d2eddc2d64ca171d6" class="app-store-img" alt="Download on the App Store"></a>
+					</section>
+			
+				</div>
+			</section>			
+		
+			<div class="description-divider"></div>
+			<section class="description">
+				<p>Designed to be as simple to use as possible on the range; just add a few friends and some stages and you are ready to score and review the results.
+				</p>
+				<p>
+				 Analysis of results that provides what-if scenarios with hit factors and score percentage.
+				</p>
+				<p>
+				Can be used as a standalone IPSC/USPSA hit factor calculator.
+				</p>
+			</section>
+		
+			<section class="screenshots">
+			
+				<div>
+					<strong>Easy setup</strong>
+					<img src="img/1.png" />
+					<p>Score just yourself or add a few more shooters.<br /><br />Add stages with or without target specifications.</p>
+				</div>
+				<div>
+					<strong>Quick scoring</strong>
+					<img src="img/2.png" />
+					<p>Fast switching between shooters and stages.<br /><br />Sound confirmation.</p>
+				</div>
+				<div>
+					<strong>View results</strong>
+					<img src="img/3.png" />
+					<p>Grouped by stage and shooter.<br /><br />Tap for details.</p>
+				</div>
+				<div>
+					<strong>Details</strong>
+					<img src="img/4.png" />
+					<p>View details and analysis/what-if.</p>
+				</div>
+			
+			
+			</section>
+		</main>
+		<footer>
+			<a href="https://github.com/tkallsen/support/issues">Support</a> | <a href="https://tkallsen.github.io/support/privacy-policy.html">Privacy policy</a>
+		</footer>
+		
+		
+	</body>
+</html>
+	
