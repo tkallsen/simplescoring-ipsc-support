@@ -3,12 +3,9 @@ body {
 	font-family: "Open Sans", sans-serif;
 	margin: 0;
 	padding: 0;
-background: rgb(0,50,106);
-background: linear-gradient(180deg, rgba(0,50,106,1) 0%, rgba(34,136,247,0.6138830532212884) 100%);
-background: #000;
-color: #fff;
+	background: #000;
+	color: #fff;
 	font-size: 20px;
-
 }
 
 .content {
@@ -52,18 +49,13 @@ section {
 	
 }
 
-	.intro em {
-		font-style: normal;
-		color: #fff;
-	}
-	
-	
-	
+.intro em {
+	font-style: normal;
+	color: #fff;
+}
 	
 .app-links {
 	width: 100%;
-	/*border-top: 1px solid rgba(255, 255, 255, 0.2);*/
-	/*background: rgba(255, 255, 255, 0.01);*/
 	margin: 50px 0;
 	display: flex;
 	justify-content: start;
@@ -86,12 +78,7 @@ section {
 }
 
 .description {
-	/*font-family: "Staatliches", Roboto, sans-serif;
-	font-size: 45px;*/
-	background: rgba(255, 255, 255, 0.10);
-	background: rgb(0,50,106);
-background: linear-gradient(180deg, rgba(0,50,106,1) 0%, rgba(34,136,247,0.6138830532212884) 100%);
-background: rgba(34,136,247,0.8);
+	background: rgba(34,136,247,0.8);
 	padding: 20px 0;
 	border-bottom: 10px solid rgba(255, 255, 255, 0.1);
 }
@@ -103,25 +90,16 @@ background: rgba(34,136,247,0.8);
 }
 
 .screenshots {
-	background: rgba(255, 255, 255, 0.15);
-		background: rgb(0,50,106);
-background: linear-gradient(180deg, rgba(34,136,247,0.6138830532212884) 0%, rgba(0,50,106,1) 100%);
-
-			display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		align-items: start;
-		justify-content: space-between;
-	/*margin-top: 5vh;
-	
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;*/
+	background: rgb(0,50,106);
+	background: linear-gradient(180deg, rgba(34,136,247,0.6138830532212884) 0%, rgba(0,50,106,1) 100%);
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: start;
+	justify-content: space-between;
 }
 
 .screenshots div {
 	margin: 70px 20px;
-	/*flex: 1;
-	max-width: 10vw;*/
 }
 
 .screenshots strong {
@@ -162,7 +140,7 @@ footer {
 	padding: 20px;
 	font-family: "Staatliches", Roboto, sans-serif;
 	font-size: 30px;
-	
+
 }
 
 footer a {
@@ -173,7 +151,6 @@ footer a {
 @media (min-width: 600px) {
 	
 	.intro {
-		/*background: blue;*/
 		display: grid;
 		grid-template-columns: 300px auto;
 		align-items: start;
@@ -182,31 +159,20 @@ footer a {
 	.intro div {
 		grid-column-start: 1 span 1;
 		padding-right: 20px;
-		/*background: red;*/
-		/*min-width: 300px;*/
 	}
-
 	
 	.intro p {
 		padding-right: 20px;
-		/*background: green;*/
 		grid-column-start: 2 span 1;
 	}
 
 	.screenshots {
 		grid-template-columns: repeat(2, 1fr);
 	}
-	/*
-	.screenshots div {
-		margin-top: 20px;
-	}*/
-
 }
 
 @media (min-width: 1200px) {
 	.screenshots {
 		grid-template-columns: repeat(4, 1fr);
 	}
-	
-	
 }
