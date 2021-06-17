@@ -1,3 +1,4 @@
 ## SimpleScoring IPSC
 
-Create an issue for support.
+<b>Create an issue for support.</b>
+
